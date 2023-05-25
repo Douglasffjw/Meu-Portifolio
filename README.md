@@ -1,10 +1,10 @@
 <h1 align="center">
-  💻<br>Portfólio - Douglas Fernandes
+  💻<br>Portfólio - Douglas Fernandes 
 </h1>
 
 ![Resultado final do projeto](assets/image/preview.png)
 
-<h4 align="center"><a href="https://www.iuricode.com/">Clique para visitar o projeto</a></h4>
+<h4 align="center"><a href="https://douglasffjw.github.io/Meu-Portifolio/">Clique para visitar o projeto</a></h4>
 
 ## 📚 Seções
 
@@ -35,7 +35,7 @@ Para o desenvolvimento deste site utilizei as seguintes tecnologias:
   <tr>
     <td align="center">
       <a href="https://github.com/Douglasffjw">
-        <img src="https://avatars3.githubusercontent.com/u/31936044" width="100px;" alt="Foto do Dg no GitHub"/><br>
+        <img src="https://github.com/Douglasffjw.png" width="100px;" alt="Foto do Dg no GitHub"/><br>
         <sub>
           <b>Douglas Fernandes</b>
         </sub>
