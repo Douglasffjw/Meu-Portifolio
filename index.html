@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="author" content="Douglas Fernandes" />
+  <meta name="description" content="Meu nome é Douglas, desenvolvedor Front-End." />
+  <meta name="keywords"
+    content="sites, web, desenvolvimento, desenvolvedor, frontend, Douglas Fernandes, Dg, programador, Douglas, front-end, website, portfólio" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#986DFF" />
+  <meta name="copyright" content="Douglas Fernandes 2023" />
+  <meta http-equiv="content-language" content="pt-br" />
+  <meta property="og:title" content="Portfólio // Douglas Fernandes" />
+  <meta property="og:description" content="Portfólio // Douglas Fernandes" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="shortcut icon" href="assets/image/favicon.ico" type="image/x-icon">
+  <link rel="canonical" href="https://douglasffjw.github.io/Meu-Portifolio/" />
+  <script src="assets/js/svg-inject.min.js"></script>
+  <title>Portfólio // Dg</title>
+</head>
+
+<body>
+  <header>
+    <div class="grid-layout">
+      <nav>
+        <img src="assets/image/dg-about1.png" alt="Dg" width="150px" height="25px" />
+        <div class="mobile-menu">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+        <ul class="nav-list">
+          <li>
+            <a href="#s-home">Ínicio</a>
+          </li>
+          <li>
+            <a href="#s-about">Quem sou</a>
+          </li>
+          <li>
+            <a href="#s-projects">Projetos</a>
+          </li>
+          <li>
+            <a href="#s-skills">Conhecimentos</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="s-home">
+      <div class="grid-layout">
+        <div id="home">
+          <div id="home-container-text">
+            <h1 class="delayMediumReveal">
+              Olá, Meu nome é
+              <span>Douglas Fernandes</span>
+            </h1>
+            <p class="typewriter">
+              Desenvolvedor Front End!
+            </p>
+
+            <a href="https://wa.me/5585989712043?text=Ol%C3%A1%20Douglas,%20vim%20pelo%20seu%20portif%C3%B3lio%20!"
+              rel="noopener" target="_blank" class="delayExtraBigReveal"><img
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAcdJREFUSEvVVcGNwjAQ3IUUEl6AhCPRAVQCVHJQSbhKgAqQYiTgRQoJ2dM63pwxjuGDThcJCYjt2ZmdWSN8+MEPnw9/D3A+HtNekiwIYAb8ISoBsUTEsq7rwzjLtjEVogyuWn8RwNocQFRir7dvvlJqwABYgvVQqU0XSBCAq8Z+fweIadcBDrM1gxPAJsQmCHDRegdEKSGuxkqZqruethhmdr/Px9Np6a59AhBZCGDOh/MB/iYfzIAkyQ0Rt8PJZNUJEFp40ZpYglGWDaJMimKJiLkUJmsfGJxlUVUNuGr5bRprGUWlYhZe0x8ArqdTTkTLkVLm/7PWMwTYvQPAa0zvAGCk1DzI4FIUN7ai6CiS2U0vQ2n6xwU6cj5sYgAOkVuByBRqoC+Xr4DNye+yEEV+K84SEMssR4C9GzJfgScAoej72Q8VB7DV2LEmOy7a5JifTdMbv+cyJkyCbRj9/ASbbJzAfWAnRHzPQJAkqaRc3PYyaNZq9E5DpUJ3VISKCgaNdXQdUlfVtz8unoZdx9wKBq09vJn9qXsH2MnZ3A08rgPzp3MWiU3ZfjXAQYZde+E09wCYe4GoDDHzs/EynbEB9867/w/wA1R/NijfGPYIAAAAAElFTkSuQmCC" />
+              WhatsApp
+            </a>
+            <a href="mailto:douglasfernandesti@gmail.com?subject=Olá Douglas, vim pelo seu portifólio! :)"
+              rel="noopener" target="_blank" class="delayExtraBigReveal"><img
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAS9JREFUSEvdlU1uwjAQhWeKuUdYERZG4gbkJKUnCT1JehO4ARJeAKvmIKBXjRVbxqorJymbeOnMzDd+8xOmFx9+cXyaEOBizJaBhpiLUbIBLZg/VlofJY6X6GrMgYi2o4I7Z6At1+tFDIBc4H5frDabdgjocjoVrNS3+JZa2+TDF1gAAS0zfy21/uwDsRITiQr2pAGdARPtcyE3Y2oQ7cOEkgAJ7I2lYI9HlZKsk6RxtQt9kwD5YB1ns4PtqKgrXJZPkgQ2V2Os1H8CxEAgb/N5DWAX1yWS5FhqXTlwNsBDlHp3knUSSCvbdv6tTr0AXo7zecfMorU/IKrcMIX3gwDuNaxUQ0ARTmrcyoMBuTMxbcD/LTsi37p+F3WDU4/eqKl1nVvEvnYT+mX2fXqu/Q90pc4ZCx3cYgAAAABJRU5ErkJggg==" />
+              Email
+            </a>
+          </div>
+
+          <img src="assets/image/logogrande.svg" alt="logo dg" onload="SVGInject(this)" id="logo" width="500px"
+            height="500px" />
+        </div>
+      </div>
+    </section>
+
+    <section id="s-about">
+      <div class="grid-layout">
+        <div>
+          <div id="creator-photo" class="delayMediumReveal">
+          </div>
+          <div>
+            <h4 class="delayMediumReveal">Sobre mim</h4>
+            <h2 class="delaySmallReveal">Douglas Freitas</h2>
+            <h3 class="delayMediumReveal">
+              DESENVOLVEDOR FRONT-END
+            </h3>
+
+            <p class="delayLargeReveal">
+              Meu nome é Douglas Fernandes de Freitas, faço faculdade de Análise e desenvolvimento de
+              sistemas, atualmente em busca de minha primeira oportunidade na área de tecnologia. Para
+              me preparar para o mercado, me dedico estudando por meio de cursos online, artigos e
+              projetos pessoais. No momento estou estudando as tecnologias do Front-End, mas tenho o
+              objetivo de no futuro se tornar um desenvolvedor Full Stack. Estou em busca de uma
+              oportunidade no mercado para pôr em prática minhas habilidades e desenvolver cada vez mais
+              experiência.
+
+            </p>
+            <nav class="delayLargeReveal">
+              <ul>
+                <a href="assets/curriculo/DouglasCurriculo.pdf" rel="noopener" target="_blank">
+                  <li>
+                    <img width="32" height="32" src="./assets/sobremim/meucv.svg" rel="noopener" alt="Ícone do LinkedIn"
+                      onload="SVGInject(this)" />
+                  </li>
+                  <a href="https://www.linkedin.com/in/dgfernandesf/" rel="noopener" target="_blank">
+                    <li>
+                      <img src="./assets/sobremim/linkedin.svg" rel="noopener" alt="Ícone do LinkedIn"
+                        onload="SVGInject(this)" />
+                    </li>
+                  </a>
+                  <a href="https://github.com/Douglasffjw" rel="noopener" target="_blank">
+                    <li>
+                      <img src="./assets/sobremim/github.svg" alt="Ícone do GitHub" onload="SVGInject(this)" />
+                    </li>
+                  </a>
+                  <a href="https://www.instagram.com/_dougl4z/" rel="noopener" target="_blank">
+                    <li>
+                      <img src="./assets/sobremim/instagram.svg" alt="Ícone do Instagram" onload="SVGInject(this)" />
+                    </li>
+                  </a>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="s-experience">
+
+      <div class="option-experience intervalCardReveal" id="experience-company">
+
+    </section>
+
+    <section id="s-projects">
+
+      <div class="grid-layout">
+        <h2 class="delaySmallReveal">Projetos <span>.</span></h2>
+        <div id="projects">
+          <article class="intervalCardReveal teslabank">
+            <h3>ModaFut</h3>
+            <p>
+              Football shop, feito em HTML, CSS e
+              JavaScript.
+            </p>
+
+            <a href="https://douglasffjw.github.io/ModaFut/" rel="noopener" target="_blank" id="teslabank">Visualizar
+              projeto
+            </a>
+          </article>
+
+          <article class="intervalCardReveal naped">
+            <h3>Clone TikTok</h3>
+            <p>
+              Mini tiktok para visualização de vídeos, feito Em React.
+            </p>
+
+            <a href="https://tiktok-jornada-91755.web.app/" rel="noopener" target="_blank" id="naped">Visualizar projeto
+            </a>
+          </article>
+
+          <article class="intervalCardReveal efront">
+            <h3>Projeto NLW-Games</h3>
+            <p>
+              Streamers/Games favoritos de 2022, feito em HTML, Sass e JavaScript.
+            </p>
+            <a href="https://douglasffjw.github.io/NLWGAMES/" rel="noopener" target="_blank" id="efront">Visualizar
+              projeto
+            </a>
+          </article>
+        </div>
+        <a href="https://github.com/Douglasffjw" rel="noopener" target="_blank" class="delayExtraBigReveal">Repositórios
+          no GitHub</a>
+      </div>
+    </section>
+
+    <section id="s-skills">
+      <div class="grid-layout">
+        <div id="skills">
+          <article id="skills-text">
+            <h2 class="delaySmallReveal">Conhecimentos <span>.</span></h2>
+            <p class="delayMediumReveal changeDescription">
+              *passe o cursor do mouse no card para ler*
+            </p>
+          </article>
+
+          <div id="skills-cards">
+            <article class="html intervalCardReveal">
+              <img src="assets/icons/html.svg" width="60px" height="60px" alt="ícone do html" />
+            </article>
+            <article class="css intervalCardReveal">
+              <img src="assets/icons/css.svg" width="60px" height="60px" alt="ícone do css" />
+            </article>
+            <article class="js intervalCardReveal">
+              <img src="assets/icons/javascript.svg" width="60px" height="60px" alt="ícone do javascript" />
+            </article>
+            <article class="py intervalCardReveal">
+              <img src="assets/icons/python.svg" width="60px" height="60px" alt="ícone do python" />
+            </article>
+            <article class="git intervalCardReveal">
+              <img src="assets/icons/git.svg" width="60px" height="60px" alt="ícone do git" />
+            </article>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="grid-layout">
+        <p>
+          Este template é feito por
+          <a href="https://www.linkedin.com/in/dgfernandesf/" rel="noopener" target="_blank">
+            Douglas Fernandes de Freitas.
+          </a>
+          | Copyright © 2023
+        </p>
+
+        <div>
+          <p>Dg</p>
+          <img src="./assets/icons/dgcode-logo-footer.svg" alt="Logo dg" />
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <script src="https://unpkg.com/scrollreveal@4.0.9/dist/scrollreveal.min.js"></script>
+  <script type="module" src="assets/js/main.js"></script>
+</body>
+
+</html>
