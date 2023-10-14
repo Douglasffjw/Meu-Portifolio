@@ -413,7 +413,7 @@ header .grid-layout nav .nav-list li a:hover {
     background-position: center;
     background-size: cover;
     border-radius: 4px;
-    height: 500px;
+    height: 550px;
 }
 
 @media screen and (max-width: 1200px) {
