@@ -37,7 +37,7 @@ Para o desenvolvimento deste site utilizei as seguintes tecnologias:
       <a href="https://github.com/Douglasffjw">
         <img src="https://github.com/Douglasffjw.png" width="100px;" alt="Foto do Dg no GitHub"/><br>
         <sub>
-          <b>Douglas Fernandes</b>
+          <b>Douglas Freitas</b>
         </sub>
       </a>
     </td>
