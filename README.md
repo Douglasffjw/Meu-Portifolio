@@ -4,7 +4,7 @@
 
 ![Resultado final do projeto](assets/image/preview.png)
 
-<h4 align="center"><a href="https://douglasffjw.github.io/Meu-Portifolio/" target="_blank">Clique para visitar o projeto</a></h4>
+<h4 align="center"><a href="https://meu-portifolio-dg.vercel.app/" target="_blank">Clique para visitar o projeto</a></h4>
 
 ## 📚 Seções
 
